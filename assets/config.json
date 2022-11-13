@@ -1,0 +1,30 @@
+{
+   "version" : 1,
+   "footer_notice" : null,
+   "bootstraps" : [
+      {
+         "bootstrap_signature" : {
+            "data" : "btQgqn4fp87BlfTp8XZpnFNMgQ4jHa4dOkDIipxJsLKXc2jfTv8vxmzH0C1ayCXq9NB+pra6Ro+oC11jGtx6AatwJvDnb2WMjNJPRDANAR1DHBpNDdQC7kD+EHJnhCXkTeVzRc0LtIC9nvhbI7riYOudWiIUzWi//OjGg3Po+djUc88qTONGB9wZrGZPDnUU1oM8uCDJMZP/7/bn39jsfg+Zr1JvAe0GI/CqDXzYD7aH6yittZn7zM7g+EANId1YT659K7lIDMKSbpcMaXHeYHZO6b/xGkOADbzxkojBPhCwB79gfEG9wlNFe7sPO+SvICmeVSZGNB0yWKK0qvYGEQ==",
+            "hash" : "4n/88EIz/bBNA03/dScC6499KIkhIghWa/MxwbYXt1JuqV0bU62kLsbBP7e+YdFk6HQzI18s0W+2X9rUtL7QYA=="
+         },
+         "install_repo" : "https://apt.bingner.com/",
+         "min_cf_version" : 1443,
+         "icon" : "https://assets.checkra.in/loader/cydia.png",
+         "install_package" : "cydia",
+         "bundle_identifier" : "com.saurik.Cydia",
+         "bootstrap_apps" : [
+            "/Applications/Cydia.app"
+         ],
+         "bootstrap_tar" : "https://assets.checkra.in/loader/ios/cydia/0d1e4d2daec4c4b528e918df6c20281d24a90950/cydia.tar.lzma",
+         "install_from_repo_uri" : "cydia://url/https://cydia.saurik.com/api/share#?source=${REPO}&package=${PACKAGE}",
+         "bootstrap_status" : "https://assets.checkra.in/loader/ios/cydia/0d1e4d2daec4c4b528e918df6c20281d24a90950/cydia.status",
+         "label" : "Cydia"
+      }
+   ],
+   "min_loader_version" : 1,
+   "core_bootstrap_signature" : {
+      "data" : "ii5x87M8nYPG9FjGmg/6ABSx/WDT1F8ji8XQFpsVd6I9bzvjHD1Ifr+5b+QgVL5fLBoOY+Qyo6EGG6iqZlylFMLxDQXaT2c10gh9rbrX1Vs9y1hh7BUw1EOlXeGmdz5XbSVhRUaIOXYAEn1/HCPy11OBeqLqvkXJ9CIU5MJtr8BHw9+41d//8vUjDKc0+tYzkQDkj/S4wx6pTkZG8IGAHHZQFYteqlgrj1LzuuBuCYaXe4NxpLqg2GeyguGPRONYCvZcyTLDY2inhFuEkxxWujfZsk3rF1H9A4JMqsaqMwVTk39Jm+OWV6FmMRPJt7ysi16QvLcDAWxyWm00mvAJEg==",
+      "hash" : "dlZcAdjWSrBUWe0JQ2Zig8TCMODzGVTKa6I1kC1weOerpGS5/QqQizW18eseqKtroipzjumYqvZ6eSm2PSLiaw=="
+   },
+   "core_bootstrap_tar" : "https://assets.checkra.in/loader/ios/core/3bda4c4ddb50d7c89eec6260f42f7ba91535de64/strap.tar.lzma"
+}
